@@ -11,13 +11,12 @@ function App() {
 
   return (
         <div className="App">
-
           <AnimatePresence mode='wait'>
             <Routes key={location.pathname} location={location}>
-              <Route exact path='/' element={<Home />} />
-              <Route path='/about' element={<About />} />
-              <Route path='/projects' element={<Projects />} />
-              <Route path='/contact' element={<Contact />} />
+              <Route exact path='/#/' element={<Home />} />
+              <Route path='/#/about' element={<About />} />
+              <Route path='/#/projects' element={<Projects />} />
+              <Route path='/#/contact' element={<Contact />} />
             </Routes>
           </AnimatePresence>
         </div>
