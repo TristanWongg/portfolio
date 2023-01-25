@@ -1,0 +1,32 @@
+@font-face{
+    font-family: javacom;
+    src: url("../../assets/fonts/javacom.regular\ \(1\).otf");
+}
+
+.background {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+font-size: 5.5em;
+font-family: javacom;
+font-weight: 500;
+}
+
+.homeBtn{
+    background-color: transparent;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1.2em; 
+}
+
+.homeBtn:hover{
+    cursor: pointer;
+    background-color: gold;
+    color: #0f172a;
+    border-radius: 10px;
+}

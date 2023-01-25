@@ -1,0 +1,7 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
+    padding: 25px;
+  }

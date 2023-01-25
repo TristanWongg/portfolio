@@ -1,8 +1,9 @@
-import '../App.css';
-import Navbar from './Navbar';
-import AnimateTransition from './AnimateTransition';
-import DropdownMenu from './DropdownMenu';
-import Loader from './Loader';
+import '../../App.css';
+import ProjectsCSS from './Projects.module.css';
+import Navbar from '../Navbar/Navbar';
+import AnimateTransition from '../AnimateTransition';
+import DropdownMenu from '../DropdownMenu/DropdownMenu';
+import Loader from '../Loader/Loader';
 
 function Projects() {
     return (
@@ -10,7 +11,7 @@ function Projects() {
             <Loader />
             <Navbar />
             <AnimateTransition>
-                <ul className='secondary'>
+                <ul>
                     <li>PROJECTS</li>
                     <li>PROJECTS</li>
                     <li>PROJECTS</li>

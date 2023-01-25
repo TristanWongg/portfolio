@@ -1,4 +1,4 @@
-import '../App.css';
+import LoaderCSS from './Loader.module.css';
 import { PacmanLoader } from 'react-spinners';
 import { useState, useEffect } from 'react';
 import { motion as m, useAnimationControls } from 'framer-motion';
@@ -26,7 +26,7 @@ function Loader() {
 
     return (
         <m.div 
-            className='loader'
+            className={LoaderCSS.loader}
             animate = {controls}
         >
             <PacmanLoader
