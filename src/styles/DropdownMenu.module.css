@@ -79,6 +79,7 @@
   
   .menuText:hover{
     text-shadow: 0 0 5px #f1f5f9;
+    color: gold;
   }
   
   .resumeIcon,

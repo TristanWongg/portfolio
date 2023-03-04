@@ -38,7 +38,7 @@ function Projects() {
                 {projectsArray.map((project) => {
                     return (
                         <SwiperSlide>
-                            <>
+                            <div className={ProjectsCSS.projectContainer}>
                                 <a href={project.ref} target="_blank" rel="noreferrer"><img src={project.img} alt='IMG' className={ProjectsCSS.image}/></a>
                                 
                                 <div className={ProjectsCSS.text}>
@@ -58,7 +58,7 @@ function Projects() {
                                         })}
                                     </p>
                                 </div>
-                            </>
+                            </div>
                         </SwiperSlide>
                     )
                 })}
