@@ -1,0 +1,63 @@
+.swiper {
+    height: 78vh;
+    width: 78vw;
+}
+
+.image {
+    width: 70%;
+    opacity: .8;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid whitesmoke;
+}
+
+.image:hover {
+    opacity: 1;
+}
+
+.text {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 500px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    gap: 1em;
+}
+
+.githubIcon {
+    font-size: 1.8em;
+}
+
+.githubIcon:hover {
+    font-size: 1.9em;
+    color: gold;
+}
+
+.title {
+    font-size: 2em;
+    color: gold;
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, .9);
+    padding: 18px;
+}
+
+.techStack {
+    font-family: HelveticaNeue-reg;
+    font-size: medium;
+}
+
+.description,
+.techStack {
+    font-family: HelveticaNeue-reg;
+    letter-spacing: 1px;
+    text-align: end;
+}

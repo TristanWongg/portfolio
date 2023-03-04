@@ -1,0 +1,93 @@
+.contactContainer{
+    height: calc(100vh - 15vh);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .emailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+    font-size: 1.1em;
+  }
+
+  .h4{
+    font-family: HelveticaNeue-light;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    color: var(--primary-text-colour);
+  }
+  
+  .emailLink {
+    color: var(--primary-text-colour);
+    text-decoration: none;
+    border: 1px solid var(--secondary-text-colour);
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    font-family: HelveticaNeue-light;
+    letter-spacing: .1em;
+  }
+  
+  .emailLink:hover {
+    color: gold;
+    border-color: gold;
+    font-weight: 900;
+  }
+  
+  .contactForm {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+    border-top: 1.5px solid var(--secondary-text-colour);
+    padding: 3em 10em 0em 10em;
+    margin-bottom: 5em;
+  }
+  
+  .formName,
+  .formEmail,
+  .formSubject{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--secondary-text-colour);
+    width: 18em;
+    font-family: HelveticaNeue-reg;
+    letter-spacing: .1em;
+  }
+  
+  ::placeholder{
+    color: var(--secondary-text-colour);
+    font-family: HelveticaNeue-reg;
+    letter-spacing: .1em;
+    opacity: .8;
+  }
+  
+  .formMessage{
+    grid-area: 1 / 2 / 5 / 4;
+    background-color: var(--main-background-colour);
+    font-family: HelveticaNeue-reg;
+    letter-spacing: .1em;
+  }
+  
+  input, textarea{
+    padding: 0.5em;
+    border: 1px solid var(--secondary-text-colour);
+    font-size: 1.1em;
+    color: var(--primary-text-colour);
+  }
+  
+  .sendBtn{
+    background-color: transparent;
+    color: var(--primary-text-colour);
+  }
+  
+  .sendBtn:hover{
+    cursor: pointer;
+    border-color: gold;
+    color: gold;
+  }
