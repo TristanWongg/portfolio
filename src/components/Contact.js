@@ -38,8 +38,9 @@ function Contact() {
                         <h4 className={ContactCSS.h4}>Contact me via your device's E-mail Client</h4>
                         <a className={ContactCSS.emailLink} href="mailto:tristan.wf.wong@gmail.com" target='_blank' rel="noreferrer">tristan.wf.wong@gmail.com</a>
                         <h4 className={ContactCSS.h4}>Or via the Contact Form below!</h4>
-
                     </div>
+
+                    <hr/>
                     
                     <form ref={form} onSubmit={sendEmail} className={ContactCSS.contactForm}>
                         <input type="text" name='name' placeholder='Name' className={ContactCSS.formName} required />

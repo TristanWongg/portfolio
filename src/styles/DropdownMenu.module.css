@@ -1,89 +1,90 @@
 .background{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-bottom: 2em;
-    padding-right: 2em;
-    width: 200px;
-  }
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 2em;
+  padding-right: 2em;
+  width: 200px;
+}
+
+.dropdownBtn{
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+}
+
+.dropdownBtnText.hide{
+  color: transparent;
+}
+
+.dropdownBtnText.show{
+  color: var(--primary-text-colour);
+  font-size: 1em;
+}
+
+.faAnglesUp{
+  font-size: 2.5em;
+  color: var(--secondary-text-colour);
+}
+
+.faAnglesDown{
+  font-size: 1.8em;
+  color: var(--secondary-text-colour);
+}
+
+.faAnglesUp:hover {
+  font-size: 2.7em;
+  cursor: pointer;
+  color: gold;
+}
+
+.faAnglesDown:hover {
+  font-size: 2em;
+  cursor: pointer;
+  color: gold;
+}
+
+.dropdownMenu.close > ul > li > a{
+  pointer-events: none;
+}
+
+.dropdownMenu.close{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .75s ease-in-out, transform .75s ease-in-out;
+}
+
+.dropdownMenu.open{
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity .75s ease-in-out, transform .75s ease-in-out;
+}
+
+.dropdownList{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 120px;
+  margin-bottom: .75em;
+}
+
+.menuText{
+  padding-left: .75em;
+  text-decoration: none;
+  font-size: var(--fs-s);
+}
+
+.menuText:hover{
+  text-shadow: 0 0 5px #f1f5f9;
+  color: gold;
+}
   
-  .dropdownBtn{
-    background-color: transparent;
-    border: none;
-    z-index: 1;
-  }
-  
-  .dropdownBtnText.hide{
-    color: transparent;
-  }
-  
-  .dropdownBtnText.show{
-    color: var(--primary-text-colour);
-    font-size: 1em;
-  }
-  
-  .faAnglesUp{
-    font-size: 2.5em;
-    color: var(--secondary-text-colour);
-  }
-  
-  .faAnglesDown{
-    font-size: 1.8em;
-    color: var(--secondary-text-colour);
-  }
-  
-  .faAnglesUp:hover {
-    font-size: 2.7em;
-    cursor: pointer;
-    color: gold;
-  }
-  
-  .faAnglesDown:hover {
-    font-size: 2em;
-    cursor: pointer;
-    color: gold;
-  }
-  
-  .dropdownMenu.close > ul > li > a{
-    pointer-events: none;
-  }
-  
-  .dropdownMenu.close{
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity .75s ease-in-out, transform .75s ease-in-out;
-  }
-  
-  .dropdownMenu.open{
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity .75s ease-in-out, transform .75s ease-in-out;
-  }
-  
-  .dropdownList{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    height: 120px;
-    margin-bottom: .75em;
-  }
-  
-  .menuText{
-    padding-left: .75em;
-    text-decoration: none;
-  }
-  
-  .menuText:hover{
-    text-shadow: 0 0 5px #f1f5f9;
-    color: gold;
-  }
-  
-  .resumeIcon,
-  .githubIcon,
-  .linkedinIcon {
-    font-size: 1.5em;
-  }
+.resumeIcon,
+.githubIcon,
+.linkedinIcon {
+  font-size: 1.5em
+}

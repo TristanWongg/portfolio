@@ -2,19 +2,20 @@
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
-  min-height: 120px;
+  min-height: var(--navbar-height);
   min-width: 40vw;
   background-color: #64748b60;
   border: 1px solid #64748b;
   border-radius: 40px;
   position: relative;
   top: -50px;
-  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .homeBtn{
   font-family: javacom;
-  font-size: 2em;
+  font-size: var(--fs-l);
   background-color: transparent;
   border: none;
 }
@@ -31,8 +32,8 @@
 .btn{
   background-color: transparent;
   border: none;
-  padding: 0.5em 1em;
-  font-size: 1.2em; 
+  padding: 5px 15px;
+  font-size: var(--fs-m);
 }
 
 .btn:hover{

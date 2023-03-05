@@ -1,14 +1,15 @@
 .background{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     max-width: 75vw;
-    min-height: 100%;
+    min-height: calc(100vh - var(--navbar-height));
 }
 
 .background > div:first-of-type {
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 3vh;
 }
 
 .background > div > h1 {
@@ -19,7 +20,7 @@
 .background > div > p, 
 .footer > p {
   font-family: HelveticaNeue-light;
-  font-size: 1.5em;
+  font-size: var(--fs-m);
   font-weight: bolder;
   letter-spacing: 1px;
 }
@@ -27,9 +28,8 @@
 .footer {
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  margin-top: 5em;
-  margin-bottom: 50px;
+  gap: 5vh;
+  padding: 20px;
 }
 
 .footer > p {
@@ -38,8 +38,10 @@
 
 .footer > ul {
   display: flex;
-  justify-content: space-between;
-  gap: 1em;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 0;
+  overflow: auto;
 }
 
 .footer > ul > li:hover {

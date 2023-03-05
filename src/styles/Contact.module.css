@@ -1,11 +1,10 @@
 .contactContainer{
-    min-height: 100%;
+    min-height: calc(100vh - var(--navbar-height));
     max-width: 85vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding-top: 20px;
     padding-bottom: 30px;
 }
   
@@ -15,12 +14,12 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 1.5em;
-  font-size: 1.1em;
+  font-size: var(--fs-m);
 }
 
 .h4{
   font-family: HelveticaNeue-light;
-  font-size: 1.2em;
+  font-size: var(--fs-m);
   letter-spacing: .1em;
   color: var(--primary-text-colour);
 }
@@ -46,8 +45,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5em;
-  border-top: 1.5px solid var(--secondary-text-colour);
-  padding: 3em 10em 0em 10em;
+  padding-top: 2em;
 }
 
 .formName,
@@ -79,8 +77,8 @@
 input, textarea{
   padding: 0.5em;
   border: 1px solid var(--secondary-text-colour);
-  font-size: 1.1em;
   color: var(--primary-text-colour);
+  font-size: var(--fs-s);
 }
 
 .sendBtn{
@@ -92,4 +90,8 @@ input, textarea{
   cursor: pointer;
   border-color: gold;
   color: gold;
+}
+
+hr {
+  width: 85vw;
 }

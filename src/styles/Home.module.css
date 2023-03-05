@@ -12,7 +12,7 @@
 }
 
 .name{
-font-size: 5.5em;
+font-size: var(--fs-xl);
 font-family: javacom;
 font-weight: 500;
 }
@@ -21,7 +21,7 @@ font-weight: 500;
     background-color: transparent;
     border: none;
     padding: 0.5em 1em;
-    font-size: 1.2em; 
+    font-size: var(--fs-s);
 }
 
 .homeBtn:hover{
