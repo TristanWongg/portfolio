@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a6547322.css",
-    "main.js": "/portfolio/static/js/main.e3e0869e.js",
+    "main.css": "/portfolio/static/css/main.14773572.css",
+    "main.js": "/portfolio/static/js/main.d8374849.js",
     "static/media/barber-app.png": "/portfolio/static/media/barber-app.9f985f913d0c93a305ed.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.0df856609b0ad29830a3.png",
     "static/media/Helvetica Neue UltraLight.otf": "/portfolio/static/media/Helvetica Neue UltraLight.31de0f84cf3343329bb2.otf",
@@ -10,11 +10,11 @@
     "static/media/Helvetica Neue Regular.otf": "/portfolio/static/media/Helvetica Neue Regular.081689ede9bac00ebc91.otf",
     "static/media/Helvetica Neue Medium Extended.otf": "/portfolio/static/media/Helvetica Neue Medium Extended.bd585c682fdab445bd28.otf",
     "index.html": "/portfolio/index.html",
-    "main.a6547322.css.map": "/portfolio/static/css/main.a6547322.css.map",
-    "main.e3e0869e.js.map": "/portfolio/static/js/main.e3e0869e.js.map"
+    "main.14773572.css.map": "/portfolio/static/css/main.14773572.css.map",
+    "main.d8374849.js.map": "/portfolio/static/js/main.d8374849.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6547322.css",
-    "static/js/main.e3e0869e.js"
+    "static/css/main.14773572.css",
+    "static/js/main.d8374849.js"
   ]
 }
