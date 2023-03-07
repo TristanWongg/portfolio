@@ -1,7 +1,7 @@
 import '../styles/global.css';
 import DropdownCSS from '../styles/DropdownMenu.module.css';
 import { useState } from 'react';
-import ResumePDF from '../assets/TristanWong_Resume_2022.pdf';
+import ResumePDF from '../assets/TristanWong-Resume-2023.pdf';
 import { motion as m } from 'framer-motion';
 
 function DropdownMenu() {
