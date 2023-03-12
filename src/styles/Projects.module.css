@@ -3,14 +3,18 @@
     width: 75vw;
 }
 
-.image {
-    max-width: 75%;
+.image,
+.video {
+    max-width: 80%;
     max-height: 80%;
-    opacity: .8;
     position: absolute;
     z-index: 1;
     border: 2px solid whitesmoke;
     overflow: auto;
+}
+
+.image {
+    opacity: .8;
 }
 
 .image:hover {

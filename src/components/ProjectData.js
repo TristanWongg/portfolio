@@ -1,5 +1,6 @@
 import project1 from '../assets/images/barber-app.png';
-import project2 from '../assets/images/portfolio.png';
+import project2 from '../assets/videos/Pong.mp4';
+import project3 from '../assets/images/portfolio.png';
 
 
 export const projectsArray = [
@@ -24,8 +25,18 @@ export const projectsArray = [
         ref: 'https://trispyfades.onrender.com/',
         ghRef: 'https://github.com/TristanWongg/barber-app'
     },
+    {
+    vid: project2,
+        title: 'Pong!', 
+        description: 'The classic table tennis themed 2D arcade game!',
+        techStack: [
+            'C++',
+            'Raylib',
+        ],
+        ghRef: 'https://github.com/TristanWongg/Pong'
+    },
     { 
-        img: project2,
+        img: project3,
         title: 'Portfolio', 
         description: 'A portfolio web app to showcase myself, my skills, and some of my projects!',
         techStack: [

@@ -15,6 +15,7 @@ import "swiper/css/effect-cube";
 function Projects() {
 
     let count = 0;
+    let isVideo = false;
 
     return (
         <div className='background'>
@@ -36,11 +37,20 @@ function Projects() {
                 modules={[EffectCube, Pagination, Keyboard]}
             >
                 {projectsArray.map((project) => {
+                    if (project.title === 'Pong!') {
+                        isVideo = true;
+                    } else {
+                        isVideo = false;
+                    }
                     return (
                         <SwiperSlide>
-                            <>
+                            <> 
+                            {isVideo ?
+                                <video src={project.vid} className={ProjectsCSS.video} autoPlay loop muted/>
+                                :
                                 <a href={project.ref} target="_blank" rel="noreferrer"><img src={project.img} alt='IMG' className={ProjectsCSS.image}/></a>
-                                
+                            }
+                            
                                 <div className={ProjectsCSS.text}>
                                     <a href={project.ghRef} target="_blank" rel="noreferrer">
                                         <i className={`fa-brands fa-github ${ProjectsCSS.githubIcon}`}/>
