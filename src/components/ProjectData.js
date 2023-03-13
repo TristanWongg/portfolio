@@ -7,20 +7,18 @@ export const projectsArray = [
     {
         img: project1,
         title: 'Trispy Fades', 
-        description: 'A barber app inspired by my personal hobby that is built using the MERN stack. Users can book, retrieve, update, and delete their appointments.',
+        description: 'A full-stack web application inspired by my personal hobby that is built using the MERN stack. Users can book, retrieve, update, and delete their appointments.',
         techStack: [
             'React',
-            'React DatePicker',
             'Axios',
             'Framer Motion',
-            'MomentJS',
-            'EmailJS',
-            'SwiperJS',
             'CSS Modules',
             'MongoDB',
             'Express',
             'NodeJS',
             'Mongoose',
+            'Railway',
+            'Render'
         ],
         ref: 'https://trispyfades.onrender.com/',
         ghRef: 'https://github.com/TristanWongg/barber-app'
@@ -28,10 +26,11 @@ export const projectsArray = [
     {
     vid: project2,
         title: 'Pong!', 
-        description: 'The classic table tennis themed 2D arcade game!',
+        description: 'The classic table tennis themed 2D arcade game! Game is played between the player and the CPU, up to 3.',
         techStack: [
             'C++',
             'Raylib',
+            'Xcode'
         ],
         ghRef: 'https://github.com/TristanWongg/Pong'
     },
@@ -43,9 +42,7 @@ export const projectsArray = [
             'React',
             'Framer Motion',
             'React Router',
-            'SwiperJS',
-            'EmailJS',
-            'React Spinners',
+            'CSS Modules'
         ],
         ref: 'https://tristanwongg.github.io/portfolio/',
         ghRef: 'https://github.com/TristanWongg/portfolio'
