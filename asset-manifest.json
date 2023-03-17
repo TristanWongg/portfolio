@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cabf5cb0.css",
-    "main.js": "/portfolio/static/js/main.93a170ae.js",
+    "main.js": "/portfolio/static/js/main.1139408f.js",
     "static/media/barber-app.png": "/portfolio/static/media/barber-app.9f985f913d0c93a305ed.png",
     "static/media/Pong.mp4": "/portfolio/static/media/Pong.ab60d951573c8a3b9b2c.mp4",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.0df856609b0ad29830a3.png",
-    "static/media/TristanWong-Resume-2023.pdf": "/portfolio/static/media/TristanWong-Resume-2023.8250d7a34cb08991872f.pdf",
+    "static/media/TristanWong-Resume-2023.pdf": "/portfolio/static/media/TristanWong-Resume-2023.4c5d3f845e95554f0145.pdf",
     "static/media/Helvetica Neue UltraLight.otf": "/portfolio/static/media/Helvetica Neue UltraLight.31de0f84cf3343329bb2.otf",
     "static/media/javacom.regular (1).otf": "/portfolio/static/media/javacom.regular (1).10477d46308cce1b1227.otf",
     "static/media/Helvetica Neue Regular.otf": "/portfolio/static/media/Helvetica Neue Regular.081689ede9bac00ebc91.otf",
     "static/media/Helvetica Neue Medium Extended.otf": "/portfolio/static/media/Helvetica Neue Medium Extended.bd585c682fdab445bd28.otf",
     "index.html": "/portfolio/index.html",
     "main.cabf5cb0.css.map": "/portfolio/static/css/main.cabf5cb0.css.map",
-    "main.93a170ae.js.map": "/portfolio/static/js/main.93a170ae.js.map"
+    "main.1139408f.js.map": "/portfolio/static/js/main.1139408f.js.map"
   },
   "entrypoints": [
     "static/css/main.cabf5cb0.css",
-    "static/js/main.93a170ae.js"
+    "static/js/main.1139408f.js"
   ]
 }
