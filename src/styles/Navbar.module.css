@@ -14,8 +14,8 @@
 }
 
 .homeBtn{
-  font-family: javacom;
-  font-size: var(--fs-l);
+  font-family: HelveticaNeue-bold;
+  font-size: 4rem;
   background-color: transparent;
   border: none;
 }

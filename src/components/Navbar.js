@@ -13,7 +13,7 @@ function Navbar() {
         >
             <Link to={'/'}>
                 <button className={NavbarCSS.homeBtn}>
-                    TW
+                    Tw
                 </button>
             </Link>
 

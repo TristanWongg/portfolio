@@ -15,7 +15,7 @@ function Home() {
                 exit = {{ opacity: 0, transition: {duration: .75} }}
                 transition = {{ duration: 1.5, ease:"easeInOut" }}
             >
-                Tristan Wong
+                TRISTAN WONG
                 <Particles />  
             </m.h1>
 
@@ -27,7 +27,7 @@ function Home() {
                     exit = {{ opacity: 0, transition: {delay: 0, duration: .75} }}
                     transition = {{ delay: 1, duration: 1.2 }}
                 >
-                    Enter
+                    ENTER
                 </m.button>
             </Link>
         </div>
