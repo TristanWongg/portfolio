@@ -1,6 +1,5 @@
 import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
-//import { loadFull } from "tsparticles"; // loads tsparticles
+import { loadSlim } from "tsparticles-slim";
 import { useCallback, useMemo } from "react";
 
 const ParticlesComponent = (props) => {
@@ -8,46 +7,45 @@ const ParticlesComponent = (props) => {
   const options = useMemo(() => {
     return {
       fullScreen: {
-        enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
-        zIndex: 0, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
+        enable: true, 
       },
       interactivity: {
         events: {
           onClick: {
-            enable: true, // enables the click event
-            mode: "push", // adds the particles on click
+            enable: true, 
+            mode: "push",
           },
           onHover: {
-            enable: true, // enables the hover event
-            mode: "repulse", // make the particles run away from the cursor
+            enable: true, 
+            mode: "repulse", 
           },
         },
         modes: {
           push: {
-            quantity: 3, // number of particles to add on click
+            quantity: 3, 
           },
           repulse: {
-            distance: 100, // distance of the particles from the cursor
+            distance: 100, 
           },
         },
       },
       particles: {
         links: {
-          enable: true, // enabling this will make particles linked together
-          distance: 200, // maximum distance for linking the particles
+          enable: true, 
+          distance: 200, 
         },
         move: {
-          enable: true, // enabling this will make particles move in the canvas
-          speed: { min: 1, max: 5 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
+          enable: true, 
+          speed: { min: 1, max: 5 }, 
         },
         opacity: {
-          value: { min: 0.3, max: 0.6 }, // using a different opacity, to have some semitransparent effects
+          value: { min: 0.3, max: 0.6 },
         },
         size: {
-          value: { min: 2, max: 4 }, // let's randomize the particles size a bit
+          value: { min: 2, max: 4 },
         },
         number: {
-          value: 40, //number of particles on screen
+          value: 40,
         },
         color: {
           value: 'random',
@@ -58,7 +56,6 @@ const ParticlesComponent = (props) => {
 
   const particlesInit = useCallback((engine) => {
     loadSlim(engine);
-    // loadFull(engine); // for this sample the slim version is enough, choose whatever you prefer, slim is smaller in size but doesn't have all the plugins and the mouse trail feature
   }, []);
 
   // setting an id can be useful for identifying the right particles component, this is useful for multiple instances or reusable components
