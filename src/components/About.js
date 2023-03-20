@@ -11,7 +11,7 @@ function About() {
             <Loader />
             <Navbar />
             <AnimateTransition>
-                <div className={AboutCSS.background}>
+                <div className={AboutCSS.aboutContainer}>
                     <div>
                         <h1>Hi, my name is Tristan Wong</h1>
                         <p>I'm a web developer based in Toronto, Canada.</p>

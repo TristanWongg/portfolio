@@ -2,6 +2,7 @@ import '../styles/global.css';
 import HomeCSS from '../styles/Home.module.css';
 import { Link } from 'react-router-dom';
 import { motion as m } from 'framer-motion';
+import Particles from './Particles';
 
 function Home() {
 
@@ -15,6 +16,7 @@ function Home() {
                 transition = {{ duration: 1.5, ease:"easeInOut" }}
             >
                 Tristan Wong
+                <Particles />  
             </m.h1>
 
             <Link to='/about'>
@@ -27,7 +29,7 @@ function Home() {
                 >
                     Enter
                 </m.button>
-            </Link>  
+            </Link>
         </div>
     );
 }

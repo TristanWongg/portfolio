@@ -1,5 +1,5 @@
 .swiper {
-    height: 70vh;
+    height: 50vh;
     width: 75vw;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .image {
-    opacity: .8;
+    opacity: .9;
 }
 
 .image:hover {

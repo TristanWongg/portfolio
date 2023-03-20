@@ -1,4 +1,4 @@
-.background{
+.aboutContainer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -6,18 +6,18 @@
     min-height: calc(100vh - var(--navbar-height));
 }
 
-.background > div:first-of-type {
+.aboutContainer > div:first-of-type {
   display: flex;
   flex-direction: column;
   gap: 3vh;
 }
 
-.background > div > h1 {
+.aboutContainer > div > h1 {
   color: gold;
   letter-spacing: 1px;
 }
 
-.background > div > p, 
+.aboutContainer > div > p, 
 .footer > p {
   font-family: HelveticaNeue-light;
   font-size: var(--fs-m);
