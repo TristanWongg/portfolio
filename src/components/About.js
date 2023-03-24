@@ -15,8 +15,8 @@ function About() {
                     <div>
                         <h1>Hi, my name is Tristan Wong</h1>
                         <p>I'm a web developer based in Toronto, Canada.</p>
-                        <p>A curious person by nature, I love to learn new things and learn best by doing. I am constantly tackling new projects while learning new skills in the process. I pride myself on creating designs that bridge the front-end and back-end seamlessly, while providing an aesthetically pleasing and intuitive user experience.</p>
-                        <p>I also enjoy my fair share of challenging and unique problems. Although I may lose sleep at night trying to crack the code, the rewarding feeling of solving something is worthwhile.</p>
+                        <p>As a curious person by nature, I am an avid learner and enjoy picking up new skills and technologies. I have developed various applications that include a full-stack E-commerce booking platform, a simple arcade game, and other front-end projects.</p>
+                        <p>I'm passionate about creating functional applications with an aesthetically pleasing and intuitive interface that provide users with an exceptional experience.</p>
                     </div>
                     <div className={AboutCSS.footer}>
                         <p>
